@@ -8,5 +8,5 @@
 
 ### Installing dependecies with conda
 - Install [Anaconda or Miniconda](https://conda.io/docs/)
-- Create env: `conda env create --file=environment.yaml`
+- Create env: `conda env create --file=environment.yml`
 - Activate env: `conda activate data-mining`
