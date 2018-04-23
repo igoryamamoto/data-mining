@@ -1,9 +1,10 @@
 ## Instructions to run notebook
 
 1. Clone repo: `git clone git@github.com:igoryamamoto/data-mining.git`
-2. `cd data-mining`
-3. Install dependencies
-4. Run: `jupyter-notebook`
+1. `cd data-mining`
+1. Install dependencies
+1. Create directory ./data/ and Copy datasets (e.g.: ./data/01_caso_intoxicacao)
+1. Run: `jupyter-notebook`
 
 ### Installing dependecies with conda
 - Install [Anaconda or Miniconda](https://conda.io/docs/)
