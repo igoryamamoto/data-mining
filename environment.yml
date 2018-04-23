@@ -1,0 +1,9 @@
+name: data-mining
+channels:
+  - defaults
+dependencies:
+  - jupyter
+  - matplotlib
+  - numpy
+  - pandas
+  - pandas-profiling
