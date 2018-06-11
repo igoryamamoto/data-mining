@@ -1,0 +1,17 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<classificacao_gravidade &le; 0.5<br/>gini = 0.402<br/>samples = 30436<br/>value = [22842, 2475, 5119]<br/>class = Favorável>, fillcolor="#e58139b3"] ;
+1 [label=<grupo_agente &le; 1.5<br/>gini = 0.307<br/>samples = 27021<br/>value = [21986, 292, 4743]<br/>class = Favorável>, fillcolor="#e58139c5"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<gini = 0.057<br/>samples = 14894<br/>value = [14457, 213, 224]<br/>class = Favorável>, fillcolor="#e58139f7"] ;
+1 -> 2 ;
+3 [label=<gini = 0.476<br/>samples = 12127<br/>value = [7529, 79, 4519]<br/>class = Favorável>, fillcolor="#e5813965"] ;
+1 -> 3 ;
+4 [label=<classificacao_gravidade &le; 1.5<br/>gini = 0.516<br/>samples = 3415<br/>value = [856, 2183, 376]<br/>class = Desfavorável>, fillcolor="#39e58184"] ;
+0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+5 [label=<gini = 0.568<br/>samples = 2211<br/>value = [764, 1213, 234]<br/>class = Desfavorável>, fillcolor="#39e5814f"] ;
+4 -> 5 ;
+6 [label=<gini = 0.331<br/>samples = 1204<br/>value = [92, 970, 142]<br/>class = Desfavorável>, fillcolor="#39e581c7"] ;
+4 -> 6 ;
+}
